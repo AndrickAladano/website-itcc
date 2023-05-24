@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #00a8e8;
+    color: #fff;
+    padding: 20px 0;
+    animation: slideDown 1s ease-in-out;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .hero-description {
+    font-size: 1.5rem;
+  }
+  
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    animation: zoomIn 1s ease-in-out;
+  }
+  
+  .skills-list li {
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f16a6a;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .projects-list {
+    list-style-type: none;
+    padding: 0;
+    animation: slideLeft 1s ease-in-out;
+  }
+  
+  .projects-list li {
+    margin-bottom: 10px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('BASS.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .container-img {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+  }
+  
+  /* Rest of the CSS code remains the same */
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    animation: slideUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
